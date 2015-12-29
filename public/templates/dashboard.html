@@ -1,0 +1,16 @@
+<md-toolbar>
+    <div class="md-toolbar-tools">
+        <h2>
+            <span>Salesman</span>
+        </h2>
+        <span flex></span>
+        <md-button ng-click="doLogOut()" class=" login-btn">
+            logout
+        </md-button>
+    </div>
+</md-toolbar>
+<md-content class="login-card md-whiteframe-24dp">
+    <h1>Welcome!
+        <br>{{user.firstName | capitalize }} {{ user.lastName | capitalize}}
+    </h1>
+</md-content>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Salesman</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="lib/angular-material/angular-material.min.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <!--Lib js File-->
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular-animate/angular-animate.min.js"></script>
+    <script src="lib/angular-aria/angular-aria.min.js"></script>
+    <script src="lib/angular-material/angular-material.min.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <!--Custom js File-->
+    <!--Main js-->
+    <script src="js/app.js"></script>
+
+    <!--Controller js File-->
+    <script src="js/controllers/AppCtrl.js"></script>
+    <script src="js/controllers/loginCtrl.js"></script>
+    <script src="js/controllers/signupCtrl.js"></script>
+    <script src="js/controllers/dashboard.js"></script>
+
+    <!--Service js File-->
+    <script src="js/services/users.js"></script>
+</head>
+<body ng-app="salesman" ng-controller="AppCtrl">
+<ui-view style="height: 100%"></ui-view>
+</body>
+</html>
